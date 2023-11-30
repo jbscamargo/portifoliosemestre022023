@@ -1,55 +1,37 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Currículo - João Batista</title>
+  <head>
+    <title>Currículo - João Batista</title>
 
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="styless.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		
-		<div class="navigation">
-			<ul>
-				<li><a href="info.html">Dados Pessoais</a></li>
-				<li><a href="curriculo.html">Curriculo</a></li>
-				<li><a href="certificates.html">Certificados</a></li>
-			</ul>
-		</div>
-		
-		<div class="main">
-
-			<ul class="caminho">
-				<li><a href="index.html">Home</a></li>
-				<li>></li>
-				<li>Currículo</li>
-			</ul>
-			<h1>Currículo</h1>
-
-			<h2>Dados Pessoais</h2>
-
-			<img class="cv-pic" src="foto.jpg" alt="João" width="200px" />
-
-			<h3>Nome:</h3>
-			<p>João Batista</p>
-			<h3>Residência:</h3>
-			<p>Itapetininga, Brasil</p>
-
-
-			<h3 style="clear: left">Idiomas:</h3>
-
-			<p>Português (Nativo)</p>
-			<p>Inglês-Básico</p>
-			<h2>Contato</h2>
-			<p>(15)98127-0906</p>
-
-
-
-			<a href="index.html">Voltar ao início<a>
-
-
-		</div>
-	</body>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navigation" class="navigation">
+      <ul>
+        <li><a href="pagina_principal 1.html">Home</a></li>
+        <li><a href="certificates.html">Certificados</a></li>
+        <li><a href="curriculo.html">Curriculo</a></li>
+        <li><a href="info.html">Dados Pessoais</a></li>
+        <li id="threeline-icon" class="threeline-icon" onclick="openNav()">
+          &#9776;
+        </li>
+      </ul>
+    </div>
+    <div class="capa">
+      <div class="profile-pic">
+        <img src="foto.jpg" alt="joão Batista" />
+      </div>
+      <div class="profile-title">
+        <h1>João <span>Batista</span></h1>
+        <h2>Estudante de Análise e Desenvolvimento de Sistemas-FATEC</h2>
+      </div>
+    </div>
+  </body>
 </html>
